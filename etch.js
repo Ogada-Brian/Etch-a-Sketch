@@ -1,5 +1,5 @@
 // Select the container
-const gridContainer = document.querySelector(".container");
+const gridContainer = document.querySelector(".grid-container");
 
 const squarePerSide = 16;
 for (let i = 0; i < squarePerSide * squarePerSide; i++) {
