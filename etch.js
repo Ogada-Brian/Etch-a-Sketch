@@ -7,3 +7,12 @@ for (let i = 0; i < squarePerSide * squarePerSide; i++) {
     square.classList.add("square");
     gridContainer.appendChild(square);
 }
+
+// Add an event Listener to each square
+const squares = document.querySelectorAll(".square");
+squares.forEach((square) => {
+    square.addEventListener("mouseover", () =>{
+        square.style.backgroundColor = "teal";
+    });
+});
+
